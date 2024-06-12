@@ -1,0 +1,118 @@
+.criated{
+    .wrapper_cards{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        .card{
+            width: 330px;
+            height: 369px;
+            background-color: rgb(100, 99, 99);
+            border-radius: 20px;
+            .midle_card{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 14px;
+                color: #FFFFFF;
+            }
+        }
+        .cards{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .card_s{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            display: none;
+        }
+        .cards_th{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            display: none;
+        }
+        
+    }
+}
+
+@media (min-width:720px) {
+    .criated{
+        .wrapper_cards{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            .card{
+                width: 330px;
+                height: 369px;
+                background-color: rgb(100, 99, 99);
+                border-radius: 20px;
+                .midle_card{
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    padding: 14px;
+                    color: #FFFFFF;
+                }
+            }
+            .cards{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .card_s{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                display: block;
+            }
+            .cards_th{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                display: none;
+            }
+            
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .criated{
+        .wrapper_cards{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            .card{
+                width: 330px;
+                height: 369px;
+                background-color: rgb(100, 99, 99);
+                border-radius: 20px;
+                .midle_card{
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    padding: 14px;
+                    color: #FFFFFF;
+                }
+            }
+            .cards{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .card_s{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                display: block;
+            }
+            .cards_th{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                display: flex;
+            }
+            
+        }
+    }
+}

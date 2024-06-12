@@ -1,0 +1,94 @@
+.footer{
+    color: #FFFFFF;
+    margin-top: 40px;
+    border-bottom: 2px solid #858584;
+    .wrapper_footer{
+        display: grid;
+        grid-template-columns: auto ;
+        .footer_items{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .explore_link{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 16px;
+            font-weight: 400;
+            .footer_link-title{
+                font-size: 28px;
+                font-weight: 600;
+            }
+        }
+
+        
+    }
+    .footer_end{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .footer_input{
+            width: 315px;
+            color: #2B2B2B;
+            background-color: #FFFFFF;
+            padding: 20px;
+        }
+        .footer-btn{
+            padding: 12px;
+            border-radius: 20px;
+            border: none;
+            background-color:#A259FF;
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .footer{
+        color: #FFFFFF;
+        padding-top: 40px;
+        .wrapper_footer{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            .footer_items{
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+            }
+    
+            .explore_link{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                font-size: 16px;
+                font-weight: 400;
+                .footer_link-title{
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+            }
+    
+            
+        }
+
+        .footer_end{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .footer_input{
+                width: 315px;
+                color: #2B2B2B;
+                background-color: #FFFFFF;
+                padding: 20px;
+            }
+            .footer-btn{
+                padding: 12px;
+                border-radius: 20px;
+                border: none;
+                background-color:#A259FF;
+            }
+        }
+
+    }
+}
